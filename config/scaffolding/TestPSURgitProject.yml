@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: prabhakarsag
   gitBranch: main
+services:
+- serviceName: project.testpsurgit.integrations:testGitSave
+  packages:
+  - name: TestPSURgitProject
+    version: "1.0"
+- serviceName: pub.date:calculateDateDifference
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1969
